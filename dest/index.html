@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<!-- SOURCES 
+    For everything related to Project Drawdon: https://www.drawdown.org/
+    Text about drawdown adapted directly from their site
+    Tailwind CSS: https://tailwindcss.com/
+    Vue.js: https://vuejs.org/
+    Gulp.js: https://gulpjs.com/
+    Animate on scroll library: https://michalsnik.github.io/aos/
+    For info about how I use the tailwind/gulp/aos setup: https://github.com/smanning29/final (Vue is not included becuase that was for this project specifically)
+-->
+
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <title>Drawdown Adapted</title>
+</head>
+<body>
+    <div class="container overflow-x-hidden overflow-y-scroll">
+
+        <div class="w-full text-center text-xl flex flex-row bg-white fixed">
+            <header class="flex-initial w-1/2">
+                <h1 class="font-display text-drawdown text-md text-left">
+                    DRAWDOWN ADAPTED
+                </h1>
+            </header>
+            <nav class="flex-initial w-1/2 text-body text-base text-drawdown object-right pt-12">
+                <a href="" class="p-5 hover:text-sky">HOME</a>
+                <a href="solutions.html" class="p-5 hover:text-sky">SOLUTIONS</a>
+            </nav>
+        </div>
+
+        <article class="lg:flex lg:flex-row pt-48 lg:pt-32">
+            <section class="lg:w-1/2 text-body">
+                <div class="text-drawdown text-left text-base">
+                    What is
+                </div>
+                <h2 class="text-drawdown text-left font-display text-mdlg">
+                    PROJECT DRAWDOWN?
+                </h2>
+                <p class="text-smd text-drawdown leading-7">
+                    Drawdown is the future point in time when levels of greenhouse gases in the atmosphere stop climbing and start to steadily decline. This is the point when we begin the process of stopping further climate change and averting potentially catastrophic warming. <br> <span class="font-bold py-2">It is a critical turning point for life on Earth.</span> 
+                </p>
+                <p class="py-5 text-sml font-thin">
+                    Project Drawdown's mission is to help the world reach “Drawdown”— the point in the future when levels of greenhouse gases in the atmosphere stop climbing and start to steadily decline, thereby stopping catastrophic climate change — as quickly, safely, and equitably as possible. 
+                </p>
+                <p class=" text-sml font-thin">
+                    To reach Drawdown, we must work on all aspects of the climate equation. The Drawdown Framwork has compiled a list of 100 different areas that need are attention. These are the possible "solutions" to the climate change crisis, if we are able to focus our energy towards improving these areas. Each solution has an estimated monetary cost, savings, and amount of how much carbon dioxide it could sequester based on worldwide efforts over the next 30 years.
+                </p>
+                <div class="text-drawdown text-left text-base pt-5">
+                    What is Drawdown Adapted?
+                </div>
+                <p class="text-smd text-drawdown leading-7 py-2">
+                    Young people have been left with a lot of responsibilities towards the climate crisis, but not a lot of accessible educational resources.
+                </p>
+                <p class="text-sml font-thin py-2">
+                    
+                    Drawdown Adapted is a project dedicated to adapting the advanced scientific language of Project Drawdown to a 5th grade level. This project was started by Beth Osnes and Inside the Greenhouse at CU Boulder after recognizing a lack of quality educational resources about climate solutions for young people. Our team has been working since May on adapting each solution without reducing the quality of the information.
+                    
+
+                </p>
+                <a href="solutions.html"> 
+                    <div class="bg-drawdown hover:bg-sky text-white hover:text-drawdown font-display m-5 p-5 text-mdlg text-center rounded-md">
+                        
+                            VIEW THE SOLUTIONS 
+                        
+                    </div>
+                </a>
+                <div class="w-full text-center md:pb-10">
+                    <a href="https://www.drawdown.org/"class="text-sml text-drawdown font-thin italic" target="_blank">Or visit the official Project Drawdown website</a>
+                </div>
+            </section>
+            <section class="lg:w-1/2 p-5">
+                <img src="img/cover-1.jpg" alt="Drawdown Adapted Cover">
+            </section>
+        </article>
+        
+        
+     </div> <!-- container -->
+
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+</body>
+</html>

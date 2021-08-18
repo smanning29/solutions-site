@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="js/solutions-prototype.js" defer></script>
+    <title>Solutions Prototype</title>
+</head>
+<body>
+    <div class="container overflow-x-hidden overflow-y-scroll" id="app">
+
+        <div class="w-full text-center text-xl flex flex-row bg-white fixed">
+            <header class="flex-initial w-1/2">
+                <h1 class="font-display text-drawdown text-md text-left">
+                    DRAWDOWN ADAPTED
+                </h1>
+            </header>
+            <nav class="flex-initial w-1/2 text-body text-base text-drawdown object-right pt-12">
+                <a href="" class="px-5 hover:text-sky">HOME</a>
+                <a href="" class="px-5 hover:text-sky">SOLUTIONS</a>
+            </nav>
+        </div>
+
+        <article class="md:flex md:flex-row pt-32 bg-fixed bg-left-top bg-no-repeat bg-90" v-bind:style="{ backgroundImage: bgImgs[solutionIndex]}" x-init="changeBgImage()" id="mainArticle">
+            <section class="pt-64">
+                <div class="flex flex-row pb-64">
+                    <button class="flex-initial w-full object-left pl-8"  v-on:click="left">
+                        <img src="img/left.png" alt="Left arrow" id="l-arrow" class="scale-50" >
+                    </button>
+                    <button class="flex-initial w-1/8 object-right"  v-on:click="right"> 
+                        <img src="img/right.png" alt="Right arrow" id="r-arrow" class="object-right text-right">
+                    </button>
+                </div>
+                <div class=" bg-drawdown50 font-hairline italic px-10 py-2">
+                    <p class="text-left text-white font-body text-sm">
+                        Solution #1 of 100
+                    </p>
+                </div>
+                <div class="w-full bg-drawdown px-10 py-2">
+                    <h2 class="text-left text-white font-display text-mdlg">
+                        BIOMASS POWER
+                    </h2>
+                </div>
+                <div class="md:flex md:flex-row bg-white">
+                    <div class="md:order-2 w-3/4">
+                        <p class="p-5 text-smd">
+                            Did you know that energy can be made from plants? Energy that is made from plants is called biomass energy. This kind of energy is known as a ‘bridge’ fuel. It can be used instead of fossil fuels while the world works to be powered by 100 percent clean and renewable energy. We have a lot of work to do before most clean and renewable energy sources, like solar or wind energy, can supply energy 100% of the time. In the meantime, biomass energy is a great solution. 
+                        </p>
+                        <img src="img/Biomass_power_plant.jpg" alt="Biomass Power plant">
+                    </div>
+                    <div class="md:order-1 w-1/4 p-5">
+                        <div class="bg-sun p-2 text-white text-base text-center tracking-wide">
+                            KEY WORDS
+                        </div>
+                        <div class="bg-sun25">
+                            <div class="p-5">
+                                <div class="font-bold">steam</div>
+                                When water is heated up to a 
+                                very hot temperature, water 
+                                vapor is created. Steam is like 
+                                a warm, or hot, mist.
+
+                                <div class="font-bold pt-2">harvest</div>
+                                When crops are picked and 
+                                gathered from the ground to 
+                                be eaten or sold
+
+                                <div class="font-bold pt-2">crops</div>
+                                Plants that are grown as food, 
+                                such as vegetables, grains, 
+                                and fruit.
+                                
+                                <div class="font-bold pt-2">seasonal crops</div>
+                                Crops that grow quickly during 
+                                only one season (i.e. spring 
+                                /summer). Seasonal crops do 
+                                not grow all year long.
+                                There are two ways we use solar PV panels to make electricity. 
+                    <ol class="list-decimal pl-4 py-2 pb-5">
+                        <li>Utility companies fill a large field with solar panels. This is called “utility-scale” solar. These provide energy for many homes and businesses. </li>
+                        <li>Individual people install a few PV panels on rooftops or near homes and businesses. This is called “distributed” solar energy collection. This type of PV panel provides energy for the building they are attached to.</li></0l>
+                        In 2015, distributed solar made up 30 percent of all solar energy produced from PV panels. Germany is the leader in solar energy and has over 1.5 million distributed solar panels. In Bangladesh, a country next to India that has a population of over 157 million people, there are more than 3.6 million solar panels installed on or near homes.
+                            </div>
+                            
+                            <ul class="list-disc pl-4 py-2 pb-5">
+                                <li>Farmers can plant fruit or nut trees in pastures and allow mushrooms to grow. Farmers can then sell the fruit, nuts or mushrooms to make extra money.</li>
+                                <li>Cows and other farm animals wear down the grass in pastures. They do this when they eat and walk on the grass all day, everyday. By having more living things on pastures, like trees, the farm ecosystem will be healthier and the land will be stronger.</li>
+                                <li>Silvopasture can help farmers and their animals adjust to different weather patterns and the more frequent droughts that will be a result of climate change.</li>
+                            </ul>
+
+                            The benefits of tree intercropping include:
+                            <ul class="list-disc pl-4 py-2 pb-5"></ul>
+                                <li>Trees protect crops from getting damaged in extreme wind, rain, and sun</li>
+                                <li>Trees help reduce erosion that can harm the land</li>
+                                <li>Trees have very long roots and they bring minerals and nutrients (like the vitamins you take) from deep in the soil up to where plants with shorter roots can find them</li>
+                                <li>Trees create homes for different birds and insect pollinators that help crops grow</li>
+                            </ul>
+
+                            Trees and crops can be combined in many different ways. There are two main ways:
+                            <ul class="list-disc pl-4 py-2 pb-5">
+                                <li>Alley cropping is when trees are planted in rows with crops in between them. This method helps trees fertilize crops.</li>
+                                <li>Parkland systems are when trees are scattered throughout fields with crops. There are many other ways to combine trees and crops and most of them make fields beautiful.</li>
+                            </ul> 
+
+                            <ul class="list-disc pl-4 py-2 pb-5">
+                                <li>LEDs use 90% less energy than conventional light bulbs, but make the same amount of light.</li>
+                                <li>Conventional light bulbs create light by heating special types of metal that glow when they get hot. This process of heating metal to make light wastes a lot of energy. In contrast, LEDs have a different process to make light and they do not give off much heat.</li> 
+                                <li>LEDs are not created with toxic chemicals. Some other light bulbs do contain toxic chemicals. For example, compact fluorescent lights (CFLs) have a small amount of mercury in them.</li> 
+                                <li>LED light bulbs last longer than other light bulbs.</li>
+                            </ul>
+
+                            When forests begin to grow again, or restore themselves, the trees, roots, and leaves of plants absorb and hold carbon! When forests hold carbon, they become a carbon sink. As the forest becomes healthy again, it is able to do the things tropical forests are meant to do. These thing are:
+                            <ul class="list-disc pl-4 py-2 pb-5">
+                                <li>Support the water cycle</li>
+                                <li>Protect pollinators & soil from erosion </li>
+                                <li>Provide food and medicine for many people</li>
+                                <li>Provide people with places to live, adventure, and worship</li>
+                            </ul>
+
+                            
+
+
+
+
+
+
+                            
+
+
+
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+        
+        
+     </div> <!-- container -->
+     
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+</body>
+</html>

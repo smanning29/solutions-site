@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+
+<!-- SOURCES 
+    For everything related to Project Drawdon: https://www.drawdown.org/
+    Text about drawdown adapted directly from their site
+    Tailwind CSS: https://tailwindcss.com/
+    Vue.js: https://vuejs.org/
+    Gulp.js: https://gulpjs.com/
+    Animate on scroll library: https://michalsnik.github.io/aos/
+    For info about how I use the tailwind/gulp/aos setup: https://github.com/smanning29/final (Vue is not included becuase that was for this project specifically)
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="js/solutions.js" defer></script>
+    <title>Solutions</title>
+</head>
+<body>
+    <div class="container overflow-x-hidden overflow-y-scroll" id="app">
+
+        <div class="w-full text-center text-xl flex flex-row bg-white fixed z-50 ">
+            <header class=" w-1/2">
+                <h1 class="font-display text-drawdown text-base md:text-mdlg text-left" data-aos="fade">
+                    DRAWDOWN ADAPTED
+                </h1>
+            </header>
+            <nav class=" w-1/2 text-body text-sml md:text-base text-drawdown pb-0 mb-0 pt-3 md:pt-12">
+                <a href="index.html" class="px-5 hover:text-sky" data-aos="fade" data-aos-delay="50">HOME</a>
+                <a href="#" class="px-5 hover:text-sky" data-aos="fade" data-aos-delay="100">SOLUTIONS</a>
+            </nav>
+        </div>
+
+        <article class="md:flex md:flex-row bg-fixed lg:pt-32 xl:bg-top-1 lg:bg-center-top md:bg-top-2 bg-top-3 bg-no-repeat bg-95 lg:bg-100 xl:bg-90 z-10" v-bind:style="{ backgroundImage: bgImgs[solutionIndex]}" x-init="changeBgImage()" id="mainArticle" data-aos="fade" >
+            <section class="pt-32 lg:pt-64">
+                <div class="flex flex-row pb-32 xl:pb-64">
+                    <button class="flex-initial w-1/8 object-left lg:pl-8"  v-on:click="left">
+                        <img src="img/left.png" alt="Left arrow" id="l-arrow" class="object-left text-left" data-aos="fade" data-aos-delay="100">
+                    </button>
+                    <div class="w-3/4">  </div>
+                    <button class="flex-initial w-1/8 object-right"  v-on:click="right"> 
+                        <img src="img/right.png" alt="Right arrow" id="r-arrow" class="object-right text-right right-0" data-aos="fade" data-aos-delay="100">
+                    </button>
+                </div>
+                <div data-aos="fade">
+                    <div class=" bg-drawdown50 font-hairline italic px-10 py-2">
+                        <p class="text-left text-white font-body text-sm" v-html="solNum[solutionIndex]">
+                            Solution #1 of 100
+                        </p>
+                    </div>
+                    <div class="w-full bg-drawdown px-10 py-2" >
+                        <h2 class="text-left text-white font-display text-md md:text-mdlg" v-html="solHeaders[solutionIndex]">
+                            BIOMASS POWER
+                        </h2>
+                    </div>
+                </div>
+
+                <div class="lg:flex lg:flex-row bg-white font-body">
+                    <div class="lg:order-2 lg:w-3/4" data-aos="fade">
+                        <p class="p-5 text-smd mt-5 md:leading-8" v-html="firstPar[solutionIndex]">
+                            paragraph 1
+                        </p>
+                        <h3 class="font-thin font-body text-base text-drawdown tracking-wide px-5"  v-html="firstSubH[solutionIndex]">
+                            subheader 1
+                        </h3>
+                        <p class="p-5 text-smd md:leading-8" v-html="secondPar[solutionIndex]">
+                            paragraph 2
+                        </p>
+                        <img v-bind:src="firstImg[solutionIndex]" alt="Image" class="px-5">
+                        <div class="text-drawdown p-5" v-html="firstImgCap[solutionIndex]" >
+                            image caption
+                        </div>
+                        <h3 class="font-thin font-body text-base text-drawdown tracking-wide px-5" v-html="secondSubH[solutionIndex]">
+                            subheader 2
+                        </h3>
+                        <p class="p-5 text-smd md:leading-8" v-html="thirdPar[solutionIndex]">
+                            paragraph 3
+                        </p>
+                    </div>
+                    <div class="lg:order-1 lg:w-1/4 p-5" data-aos="fade">
+                        <div class="my-5 p-5 bg-forest text-white font-thin tracking-wider text-smd" >
+                            <div class="font-display text-mdlg" v-html="coNum[solutionIndex]">
+                                57.6–159
+                            </div>
+                            GIGATONS
+                            <div class="text-sm pt-2">CO2 EQUIVALENT <br> REDUCED / SEQUESTERED (2020–2050)</div>
+                        </div>
+                        <div v-if="keyWords[solutionIndex] != 'no'">
+                            <div class="bg-sun p-2 text-white text-base text-center tracking-wide" >
+                                KEY WORDS
+                            </div>
+                            <div class="bg-sun25">
+                                <div class="p-5" v-html="keyWords[solutionIndex]">
+                                    key words
+                                </div>
+                            </div>
+                        </div>
+
+                        <a v-bind:href="solLink[solutionIndex]" target="_blank">
+                            <div class="bg-drawdown hover:bg-sky text-white hover:text-drawdown text-center my-5 p-5 text-smd rounded-md">
+                                VIEW THE ORIGINAL SOLUTION
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+        </article>
+        
+        
+     </div> <!-- container -->
+     
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
+</body>
+</html>
