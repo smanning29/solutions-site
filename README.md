@@ -10,6 +10,7 @@ Styling done with Tailwind CSS processed with Gulp and PostCSS
 ### Document Setup
 
 Gulp browser autosync -- gulp watch
+
 Gulp PostCSS processing -- gulp css
 
 ### Resources Used
