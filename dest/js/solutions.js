@@ -254,10 +254,10 @@ new Vue({
                 // ! LINK TO THE ACT PAGE !
             `<div class="font-bold">Meeting of the Parties to the Montreal Protocol: </div>
             Each year, every country who signed the Montreal Protocol will send a representative to this meeting to make sure they are meeting the reccommendations made by scientists.`,
-            `<div class="font-bold"> </div>
-            caption `,
-            `<div class="font-bold"> </div>
-            caption `,
+            `<div class="font-bold">Acting it out: </div>
+            Students at Tuba City High School within the Navajo Nation enact power generation from solar photovoltaics.`,
+            `<div class="font-bold">Open fire cooking: </div>
+            It is important to consider the people who will use clean cookstoves when we design them. A local non-profit organization gifted this woman, in Chajul, Guatemala, a clean cookstove. (You can see it behind her this photo). However, she continues to cook on a three stone open fire because she prefers her traditional way of cooking. The new clean stove is too tall, not easy for her to use.`,
             `<div class="font-bold">Solar panels on a roof: </div>
             More and more homes are getting solar panels as they become less expensive to install. `,
             //11-15
