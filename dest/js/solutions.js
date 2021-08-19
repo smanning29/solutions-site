@@ -128,14 +128,23 @@ new Vue({
             "https://www.drawdown.org/solutions/tree-intercropping"
         ],
         keyWords: [
-            `<div class="font-bold">wind turbines</div> Modern windmills, usually large and white
-            <div class="font-bold pt-2">kinetic energy</div> Energy that comes from things in motion
-            <div class="font-bold pt-2">wind farms</div>Large groups of wind turbines in one place to harvest lots of wind energy`,
+            //1-5
             "no",
+            `<div class="font-bold">reproductive healthcare</div>This means that people can have a healthy reproductive system and they have the ability to reproduce and have a family when they choose to.
+            <div class="font-bold pt-2">equal educational opportunities</div> An education that is equitable and accessible to all genders and that prepares all students to be decision-makers and knowledge-producers.`,
             "no",
-            `<div class="font-bold">carbon sink</div> Forests, oceans, and other natural environments that can hold carbon by absorbing it out of the atmosphere.
-            <div class="font-bold pt-2">pollinator</div> an animal or insect that moves pollen from plant to plant in order to fertilize the flowers
+            `<div class="font-bold">ozone layer</div> The ozone layer is a layer of Earth’s atmosphere that absorbs most of the ultraviolet (UV) energy reaching Earth from the sun.`,
+            `<div class="font-bold pt-2">pollinator</div> an animal or insect that moves pollen from plant to plant in order to fertilize the flowers
+            <div class="font-bold">erosion</div> Erosion is when soil and rocks are slowly moved from one area to another by wind and rain. 
             <div class="font-bold pt-2">invasive plants</div> Plants that don’t belong in a certain ecosystem are called invasive plants. They can hurt an ecosystem because they disrupt the relationships between the native plants (plants that naturally grow in a place) and the animals that live there. When people remove invasive plants, tropical forests can grow strong.`,
+            //6-10
+            `<div class="font-bold">graze</div> Graze means eat grass in a field. Many cows graze in open fields.
+            <div class="font-bold pt-2">conserve</div> Conserve means to protect from harm or destruction. When we conserve the environment, we protect it from being destroyed by human activity, like farming or building homes.`,
+            `<div class="font-bold">ozone layer</div> The ozone layer is a layer of Earth’s atmosphere that absorbs most of the ultraviolet (UV) energy reaching Earth from the sun.
+            <div class="font-bold pt-2">Montreal Protocol</div> Learn more about this in the Refrigerant Management solution.`,
+            `<div class="font-bold">watt</div> A watt is a way to measure power, or the speed of energy transfer of appliances. For example, many lightbulbs in homes are 60 watts. That means they will change 60 joules of electrical energy into light energy every second.`,
+            `<div class="font-bold">carbon monoxide</div> In many buildings and homes in the U.S., carbon monoxide alarms are placed on the walls. There are probably a few in your school, or your home. Carbon monoxide is toxic to breathe, which is why so many of these alarms are installed.
+            <div class="font-bold pt-2">black carbon</div> This is created when certain things are burned. It forms a powdery black dust called soot. It also is very bad for human health. `,
             "no",
             `<div class="font-bold">methane</div> Methane is a greenhouse gas like carbon dioxide. One way it is created is when cows, and other animals, eat food, digest it, and then fart it out. Methane can trap 34 times more heat than carbon dioxide in earth’s atmosphere.
             <div class="font-bold pt-2">ecosystem</div> An ecosystem is a community of living organisms (such as plants, animals, and bacteria) along with the nonliving parts of their environments (such as air, water, sunlight, and soil).`,
@@ -149,7 +158,7 @@ new Vue({
         firstPar: [
             //1-5
             "Globally, one third of all food does not make it from the farms and factories, where it is either grown or produced, to our plates. The process of making food that ever gets eaten wastes a LOT of valuable resources. For example, seeds, water, energy, land, fertilizer, people’s time working, and money is wasted. Wasted food makes up 8 percent of global greenhouse gas emissions every year!",
-            "Climate change solutions are often located at the connection between people and the environment. Two examples of the important connections between people and the environment are high-quality reproductive healthcare and equal educational opportunities. Both of these issues are human rights and they are both very important to ensure that women and men are treated equally. When everyone has access to reproductive healthcare and equal educational opportunities, we are better prepared to address climate change.",
+            `Climate change solutions are often located at the connection between people and the environment. Two examples of the important connections between people and the environment are <span class="bg-sun25">high-quality reproductive healthcare</span> and <span class="bg-sun25">equal educational opportunities</span>. Both of these issues are human rights and they are both very important to ensure that women and men are treated equally. When everyone has access to reproductive healthcare and equal educational opportunities, we are better prepared to address climate change.`,
             `Focusing on eating fruits and vegetables as our main source of food can help keep us healthy and help prevent climate change. In many countries, including the United States, most people eat meat as their main course every meal and include fruits and vegetables as side courses. Eating meat as the main food source is becoming more common around the world. 
             However, eating so much meat contributes a lot to global warming. Meat production accounts for 20 percent of global greenhouse gas emissions. If all the cattle in the world lived together in their own country without humans, that country would place third for the largest producer of greenhouse gas in the world.`,
             `Refrigerators keep our food cold to make sure it stays fresh. Air conditioners keep buildings and homes cool during hot summers. Both refrigerators and air conditioners use chemicals that can absorb and give off heat to create cool air. These chemicals are called <span class="bg-sun25">refrigerants</span>. Up until 1987, two of the most common types of refrigerants were chlorofluorocarbons <span class="bg-sun25">(CFCs)</span> and hydro-chlorofluorocarbons <span class="bg-sun25">(HCFCs)</span>. Even though they are effective refrigerants, these chemicals cause a problem.`,
@@ -237,39 +246,39 @@ new Vue({
                    ],
         firstImgCap: [
             //1-5
-            `<div class="font-bold">Food supply chain: </div>
+            `<span class="font-bold">Food supply chain: </span>
             This is a simple version of how food gets from the farm to our stores. There are lots of different spots where food can get lost or wasted before it even makes it to the store!`,
-            `<div class="font-bold">Studying reproductive health: </div>
+            `<span class="font-bold">Studying reproductive health: </span>
             Young women in Malope, South Africa study reproductive health.`,
-            `<div class="font-bold">Plant-based party: </div>
+            `<span class="font-bold">Plant-based party: </span>
             Making a feast focused on plants with friends or family is a great way to encourage people to make good choices for the planet.`,
-            `<div class="font-bold">Ozone layer over time: </div>
+            `<span class="font-bold">Ozone layer over time: </span>
             These images show how the ozone “hole” in the South pole has changed over time. The blue and purple areas are where there is less ozone, so the ozone layer is thinner. The Montreal Protocol was created after scientists saw this “hole” growing larger.`,
-            `<div class="font-bold">Promoting recycled paper: </div>
+            `<span class="font-bold">Promoting recycled paper: </span>
             Young people can help reduce the need for tropical forest restoration by promoting the use of recycled paper products that come from trees as in this skit, Recycled Toilet Paper included in (link to act page)`,
                 // ! LINK TO THE ACT PAGE !
             //6-10
-            `<div class="font-bold">Acting it out: </div>
+            `<span class="font-bold">Acting it out: </span>
             Performing skits is one way to let people know about the benefits of wind power! Here, youth perform a skit, Wind Turbines are Beautiful from the Enacting Climate activities found at (link)`,
                 // ! LINK TO THE ACT PAGE !
-            `<div class="font-bold">Meeting of the Parties to the Montreal Protocol: </div>
+            `<span class="font-bold">Meeting of the Parties to the Montreal Protocol: </span>
             Each year, every country who signed the Montreal Protocol will send a representative to this meeting to make sure they are meeting the reccommendations made by scientists.`,
-            `<div class="font-bold">Acting it out: </div>
+            `<span class="font-bold">Acting it out: </span>
             Students at Tuba City High School within the Navajo Nation enact power generation from solar photovoltaics.`,
-            `<div class="font-bold">Open fire cooking: </div>
+            `<span class="font-bold">Open fire cooking: </span>
             It is important to consider the people who will use clean cookstoves when we design them. A local non-profit organization gifted this woman, in Chajul, Guatemala, a clean cookstove. (You can see it behind her this photo). However, she continues to cook on a three stone open fire because she prefers her traditional way of cooking. The new clean stove is too tall, not easy for her to use.`,
-            `<div class="font-bold">Solar panels on a roof: </div>
+            `<span class="font-bold">Solar panels on a roof: </span>
             More and more homes are getting solar panels as they become less expensive to install. `,
             //11-15
-            `<div class="font-bold">Silvopastoral Farm: </div>
+            `<span class="font-bold">Silvopastoral Farm: </span>
             Cows grazing in fields that use silvopasture can rest in the shade of the trees. This can help the both the cows and the pasture recover.`,
-            `<div class="font-bold">Herd of grazing animals: </div>
+            `<span class="font-bold">Herd of grazing animals: </span>
             Grazing animals travel in herds for safety, like this herd of buffalo in the Serengeti.`,
-            `<div class="font-bold">Intercropped farm: </div>
+            `<span class="font-bold">Intercropped farm: </span>
             This woman shows her rubber plants and vegetables that she is growing together.`,
-            `<div class="font-bold">Bamboo furniture: </div>
+            `<span class="font-bold">Bamboo furniture: </span>
             Bamboo can be use for lots of things because it is very strong. This table and chairs is made from bamboo.`,
-            `<div class="font-bold">Solar LED Lighting: </div>
+            `<span class="font-bold">Solar LED Lighting: </span>
             LED lights are very energy efficient, so they can be used with solar panels to bring light to places that do not have a power grid. This girl is fixing the solar powered light for her village in India.`,
             
         ],
@@ -322,7 +331,7 @@ new Vue({
                    ],
         secondImgCap: [
             //1-5
-            `<div class="font-bold">Plant-based burgers: </div>
+            `<span class="font-bold">Plant-based burgers: </span>
             New plant-based burgers are being made to taste just like hamburgers. People may eat more plant-based foods when they look more like the meat-based foods they like.`,
         ],
         solutionIndex: 0
