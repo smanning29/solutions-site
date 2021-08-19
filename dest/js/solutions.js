@@ -173,8 +173,8 @@ new Vue({
             "Wasting food is an issue all around the world.",
             "How does the population relate to climate change?",
             "What can we do?",
-            "How does reforestation absorb carbon from the air?",
             "The problems with refrigerants",
+            "How does reforestation absorb carbon from the air?",
             //6-10
             "More wind energy for our electricity needs",
             "The problems with refrigerants",
@@ -236,16 +236,31 @@ new Vue({
             "img/s20-1.jpg"
                    ],
         firstImgCap: [
-            `<div class="font-bold">Wind farm in a valley: </div>
-            These wind turbines are spread across a large valley. The land underneath them can still be used for many things.`,
-            `<div class="font-bold">Produce with imperfections: </div>
-            This produce may look fine, but it would have been rejected by a normal groccery store's standards. This produce was sent through a special delivery service intended to reduce food waste.`,
-            `<div class="font-bold">Plant-based burgers: </div>
-            New plant-based burgers are being made to taste just like hamburgers. People may eat more plant-based foods when they look more like the meat-based foods they like.`,
-            `<div class="font-bold">Tropical rainforest desforestation: </div>
-            The best way to help rain forests is to stop deforestation. Unfortunately, lots of land is cleared for cattle grazing or other reasons. Sometimes they burn the land to clear it, which causes massive fires.`,
+            //1-5
+            `<div class="font-bold">Food supply chain: </div>
+            This is a simple version of how food gets from the farm to our stores. There are lots of different spots where food can get lost or wasted before it even makes it to the store!`,
+            `<div class="font-bold">Studying reproductive health: </div>
+            Young women in Malope, South Africa study reproductive health.`,
+            `<div class="font-bold">Plant-based party: </div>
+            Making a feast focused on plants with friends or family is a great way to encourage people to make good choices for the planet.`,
+            `<div class="font-bold">Ozone layer over time: </div>
+            These images show how the ozone “hole” in the South pole has changed over time. The blue and purple areas are where there is less ozone, so the ozone layer is thinner. The Montreal Protocol was created after scientists saw this “hole” growing larger.`,
+            `<div class="font-bold">Promoting recycled paper: </div>
+            Young people can help reduce the need for tropical forest restoration by promoting the use of recycled paper products that come from trees as in this skit, Recycled Toilet Paper included in (link to act page)`,
+                // ! LINK TO THE ACT PAGE !
+            //6-10
+            `<div class="font-bold">Acting it out: </div>
+            Performing skits is one way to let people know about the benefits of wind power! Here, youth perform a skit, Wind Turbines are Beautiful from the Enacting Climate activities found at (link)`,
+                // ! LINK TO THE ACT PAGE !
+            `<div class="font-bold">Meeting of the Parties to the Montreal Protocol: </div>
+            Each year, every country who signed the Montreal Protocol will send a representative to this meeting to make sure they are meeting the reccommendations made by scientists.`,
+            `<div class="font-bold"> </div>
+            caption `,
+            `<div class="font-bold"> </div>
+            caption `,
             `<div class="font-bold">Solar panels on a roof: </div>
             More and more homes are getting solar panels as they become less expensive to install. `,
+            //11-15
             `<div class="font-bold">Silvopastoral Farm: </div>
             Cows grazing in fields that use silvopasture can rest in the shade of the trees. This can help the both the cows and the pasture recover.`,
             `<div class="font-bold">Herd of grazing animals: </div>
@@ -305,6 +320,11 @@ new Vue({
             "img/s19-2.jpg",
             "img/s20-2.jpg"
                    ],
+        secondImgCap: [
+            //1-5
+            `<div class="font-bold">Plant-based burgers: </div>
+            New plant-based burgers are being made to taste just like hamburgers. People may eat more plant-based foods when they look more like the meat-based foods they like.`,
+        ],
         solutionIndex: 0
     },
     methods: {
