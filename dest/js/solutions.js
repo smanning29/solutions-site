@@ -186,11 +186,20 @@ new Vue({
             "Around the world people cook in many different ways. In the United States, you may be used to seeing your family cook dinners on a gas or electric stove or in the microwave. However, about 3 billion people in the world cook their meals on open fires or on very basic stoves.",
             `In the 1800s, solar panels used to be made of selenium. This is a chemical that can spread heat when the sun shines on it. Today, we use something called <span class="bg-sun25">PV (photovoltaic) panels</span>. The PV (photovoltaic) panels are made of tiny silicon crystals. When the sun shines on the crystals, the heat absorbed creates an electric charge. This process doesn’t require any fuel, just sunlight and PV panels. Making energy with solar PV panels doesn’t release any greenhouse gases.`,
             //11-15
-            "In most modern farms, animals are kept on pastures, fields of grass, without trees. Silvopasture is an old and environmentally friendly way to raise cows and other farm animals that includes trees planted in pastures!",
-            "Some animals, like bison and antelope, live in grassy places and eat many kinds of small plants. These grazing animals are extremely important to the environment. The way they eat and live helps create amazing places like the Serengeti plains in Africa and the tall grass prairies of the United States.",
-            `Tree intercropping means planting trees in fields with  <span class="bg-sun25">crops</span>. This helps the soil hold more carbon and keep carbon dioxide out of the air where it can warm the Earth and cause climate change. It also helps crops grow by keeping the soil healthy. The way that farmers plant trees with crops changes based on the type of land, the climate, how much money farmers make on the crop, and the people planting the crop.`,
-            "In the Philippines, there is a story about the first man and the first woman who ever lived. The first man’s name was Malakas, which means “Strong One.” The first woman was named Maganda, which means “Beautiful One.” In the story, the first man and the first woman came from the two halves of a bamboo tree. This story is one of many in Asia that tells about people coming from bamboo. These stories show how important bamboo is to people! Bamboo is a plant that humans have grown for more than a thousand different uses. It is used to build houses, as food, and even for paper.",
-            "LED lights are light bulbs that are more environmentally friendly than conventional light bulbs (like incandescent or fluorescent light bulbs). Their name stands for ‘light emitting diodes’ (LED). Diodes are small electronic devices that conduct current in one direction. Sometimes they light up. Diodes were invented way back in 1874, but we couldn’t see the light that they were making very well. In 1994, more than 100 years later, Japanese scientists invented LED lights that were just as bright as conventional light bulbs. These scientists won the Nobel Prize in Physics in 2004 for their work with LEDs."
+            `In most modern farms, animals are kept on pastures, fields of grass, without trees. <span class="bg-sun25">Silvopasture</span> is an old and environmentally friendly way to raise cows and other farm animals that includes trees planted in pastures!`,
+            `<span class="bg-sun25">Peatlands</span> are one of the most important types of wetlands in the world. They are also sometimes called <span class="bg-sun25">bogs</span> or <span class="bg-sun25">mires</span>.  Peat is made out of dead or <span class="bg-sun25">decomposing</span> plants from hundreds and thousands of years ago. It is formed when dead plants that grew in the peatland areas begin to decompose under a layer of living vegetation and water. The decomposition process never finishes because the water stops the decomposition. Over the years, peat becomes thick and forms a very wet and dense soil. Water-loving plants grow on top of it.`,
+            `<span class="bg-sun25">Afforestation</span> is the process of planting trees to create forests in places where there were not forests before. Land that has been used in the past for farming, animal grazing, and even mining can be great places for new trees and <span class="bg-sun25">perennial plants</span> to grow.`,
+            `Temperate zones are places on Earth that are located about midway between the equator and the North and South Poles. About 25% of all trees on Earth are found in temperate zones, mostly in the Northern Hemisphere. Some of those trees are deciduous, which grow and lose their leaves every year. Other trees are evergreen, with needles that stay green all year round. Throughout human history, 99 percent of temperate forests have been used or changed by humans in some way. Many forests have been used to create wood for construction, while others have been cut down to create space for farming and cities. 
+            Even though temperate forests have faced many challenges and pressures, they are very strong. They are able to recover from impacts over time, and can eventually regenerate ecosystems that used to exist many years ago.`,
+            "Concentrated solar power (CSP) has been around since the 1980s. It is becoming more and more popular.",
+            //16-20
+            "It can be really uncomfortable when you feel too warm, or too cold. This is why it’s nice to have heating and cooling systems in offices, restaurants, schools, and homes. But, about 25 to 60 percent of energy that is used for heating and cooling buildings is lost.",
+            `Some animals, like bison and antelope, live in grassy places and eat many kinds of small plants. These <span class="bg-sun25">grazing animals</span> are extremely important to the environment. The way they eat and live helps create amazing places like the Serengeti plains in Africa and the tall grass prairies of the United States.`,
+            `LED lights are light bulbs that are more environmentally friendly than conventional light bulbs (like incandescent or fluorescent light bulbs). Their name stands for ‘light emitting diodes’ (LED). <span class="bg-sun25">Diodes</span> are small electronic devices that conduct current in one direction. Sometimes they light up. 
+            Diodes were invented way back in 1874, but we couldn’t see the light that they were making very well. In 1994, more than 100 years later, Japanese scientists invented LED lights that were just as bright as conventional light bulbs. These scientists won the Nobel Prize in Physics in 2004 for their work with LEDs.`,
+            `The majority of crops we use for food, like corn, are <span class="bg-sun25">annual plants</span>. That means that every year we have to plant new seeds for the crops to grow. Other plants, like trees, are known as <span class="bg-sun25">perennials</span>. People do not need to replant them each year. Every year they continue to grow and get bigger. 
+            Perennial crops we grow for food include coconuts, bananas, avocados, and many kinds of nuts. The trees that produce these foods also pull much more carbon out of the air and store more in the soil compared to annual plants.`,
+            `<span class="bg-sun25">Tree intercropping</span> means planting trees in fields with  <span class="bg-sun25">crops</span>. This helps the soil hold more carbon and keep carbon dioxide out of the air where it can warm the Earth and cause climate change. It also helps crops grow by keeping the soil healthy. The way that farmers plant trees with crops changes based on the type of land, the climate, how much money farmers make on the crop, and the people planting the crop.`
         ],
         firstSubH: [
             //1-5
@@ -207,10 +216,16 @@ new Vue({
             "How do people use solar PV panels to make electricity?",
             //11-15
             "Why would we plant trees in pastures?",
+            "Where in the world are peatlands and what do they look like?",
+            "How does afforestation happen?",
+            "Why is it important to restore temperate forests?",
+            "How do concentrated solar power plants make electricity?",
+            //16-20
+            "So, where does all that energy go?",
             "Why are grazing animals important?",
-            "Why is tree intercropping a good idea?",
-            "What exactly is Bamboo?",
-            "What are the differences between LEDs and conventional light bulbs?"
+            "What are the differences between LEDs and conventional light bulbs?",
+            "Why are perennial staple crops important?",
+            "Why is tree intercropping a good idea?"
         ],
         secondPar: [
             //1-5
@@ -231,11 +246,19 @@ new Vue({
             `There are two ways we use solar PV panels to make electricity. <ol class="list-decimal pl-4 py-2 pb-5"><li>Utility companies fill a large field with solar panels. This is called “utility-scale” solar. These provide energy for many homes and businesses. </li><li>Individual people install a few PV panels on rooftops or near homes and businesses. This is called “distributed” solar energy collection. This type of PV panel provides energy for the building they are attached to.</li></0l>
              In 2015, distributed solar made up 30 percent of all solar energy produced from PV panels. Germany is the leader in solar energy and has over 1.5 million distributed solar panels. In Bangladesh, a country next to India that has a population of over 157 million people, there are more than 3.6 million solar panels installed on or near homes.`,
             //11-15
-             `Trees act as sponges that absorb carbon dioxide, which helps to offset the methane that cows and farm animals create. So, if we are going to raise farm animals it’s important to find ways to reduce the impact of the  <span class="bg-sun25">methane</span> they create. One way to do this is to trap carbon and reduce the overall amount of greenhouse gas emitted. Silvopasture allows the soil to absorb (take in) 5 to 10 times more carbon than pastures that have no trees. The carbon is sequestered, hidden away, in the trees and dirt. Ultimately, silvopasture also helps to keep the Earth cooler!`,
-            `Grassy  <span class="bg-sun25">ecosystems</span> around the world sequester (trap and hide) a lot of carbon dioxide in their soil in the form of biomass. The health of the environment in grassy ecosystems is improved by wild grazing animals. These are herd animals, meaning they stand very close to one another to make sure no one gets hurt or lost. As they walk, they eat the tops of the grass. This way of eating actually helps the grass grow. As they move around the grassy ecosystem, wild grazing animals’ hooves also dig up the dirt a little bit and mix in their poop and pee. This mixing helps fertilize the soil! As a result, more grass grows and the extra grass traps atmospheric carbon in the soil - combatting one of the key components of climate change.`,
-            `The benefits of tree intercropping include:<ul class="list-disc pl-4 py-2 pb-5"><li>Trees protect crops from getting damaged in extreme wind, rain, and sun</li><li>Trees help reduce  <span class="bg-sun25">erosion</span> that can harm the land</li><li>Trees have very long roots and they bring minerals and nutrients (like the vitamins you take) from deep in the soil up to where plants with shorter roots can find them</li><li>Trees create homes for different birds and insect pollinators that help crops grow</li></ul>`,
-            'Bamboo is a grass, but when it is pressed down, it is as strong as concrete. When it is pulled or bent, it is as strong as steel. In just one growing season, bamboo grows to its full height! This means that farmers can cut down bamboo after just one year and use it for  <span class="bg-sun25">pulp</span> to make paper or farmers can let it grow for up to eight years. After bamboo is cut down, more bamboo sprouts in its place and grows.',
+            `Trees act as sponges that absorb carbon dioxide.  This process helps reduce the amount of greenhouse gasses in the atmosphere. Silvopasture allows the soil to absorb (take in) 5 to 10 times more carbon than pastures that have no trees. The carbon is sequestered, stored, in the trees and dirt. Ultimately, silvopasture also helps to keep the Earth cooler!`,
+            `Peat is extremely important to our Earth and the many systems that regulate our planet. While only three percent of the Earth is covered in peat, only the earth’s oceans hold more carbon dioxide. Peatlands store twice as much carbon dioxide as all of the forests in the world combined! Protecting peatlands from fire and development is a very important way to trap greenhouse gases.`,
+            `Afforestation can happen in a few different ways. One way is to plant many different types of trees and perennials that are <span class="bg-sun25">indigenous</span> to the area, meaning they grow naturally in that specific area. Another way is to plant just one kind of tree that grows very fast. In this method trees are planted as if they are a crop, like the way corn is planted and grown. This method makes up the majority of afforestation efforts and the most commonly tree planted is the Monterey pine. The Monterey pine is actually the most planted tree in the entire world! 
+            <br><br>However people plant trees, afforestation creates a carbon sink. A carbon sink is when plants, like trees, absorb carbon dioxide from the atmosphere and hold it in their roots and soil.`,
+            `Across the world, there are 1.9 billion acres of temperate forests! These forests act as carbon sinks. The World Resources Institute calculated that another 1.4 billion acres of temperate forests could be grown through <span class="bg-sun25">restoration</span> projects. More trees means more carbon could be captured from the atmosphere and this would help reduce the impact of climate change.`,
+            `CSP power plants use mirrors to concentrate, or focus, solar rays. These concentrated solar rays heat a fluid, produce steam, and turn <span class="bg-sun25">turbines</span> to create electricity. Concentrated solar power plants need a huge amount of sunlight to create energy so they work best in really sunny and dry places, like deserts. 
+            <br><br>Unlike solar panels and wind turbines, CSP creates heat before it makes electricity. The great thing about heat is that it is easier to store than electricity. CSP plants can use the heat created when the sun is shining to warm up tanks full of liquid salt until they are almost boiling! These tanks stay hot for a long time, so CSP plants can continue to make electricity long after the sun goes down each day.`,
+            //16-20
+            `Energy that we use to heat and cool rooms and buildings gets wasted because many buildings are not well <span class="bg-sun25">insulated</span>. The heated air, or cooled air, can find its way out of a building through many different ways, such as through cracks around windows and doors. Some materials are better than others for keeping a building well insulated. Buildings that are made out of materials that poorly insulate, such as metal or plastic, basically allow the warm or cold air to leak out. This is how energy is lost due to poor insulation. When builders better insulate a building, the temperature inside stays more constant. We also save energy, and greenhouse gas emissions will not be as high!`,
+            `Grassy <span class="bg-sun25">ecosystems</span> around the world <span class="bg-sun25">sequester</span> (trap and hide) a lot of carbon dioxide in their soil in the form of biomass. The health of the environment in grassy ecosystems is improved by wild grazing animals. These are herd animals, meaning they stand very close to one another to make sure no one gets hurt or lost. As they walk, they eat the tops of the grass. This way of eating actually helps the grass grow. As they move around the grassy ecosystem, wild grazing animals’ hooves also dig up the dirt a little bit and mix in their poop and pee. This mixing helps fertilize the soil! As a result, more grass grows and the extra grass traps atmospheric carbon in the soil - combatting one of the key components of climate change.`,
             `<ul class="list-disc pl-4 py-2 pb-5"><li>LEDs use 90% less energy than conventional light bulbs, but make the same amount of light.</li><li>Conventional light bulbs create light by heating special types of metal that glow when they get hot. This process of heating metal to make light wastes a lot of energy. In contrast, LEDs have a different process to make light and they do not give off much heat.</li><li>LEDs are not created with toxic chemicals. Some other light bulbs do contain toxic chemicals. For example, compact fluorescent lights (CFLs) have a small amount of mercury in them.</li><li>LED light bulbs last longer than other light bulbs.</li></ul>`,
+            `Many perennial crops have been grown and harvested for centuries, and some are very important to the world’s food supply. This is especially true in tropical areas where many perennial food crops grow. Crops that provide the majority of the food people eat are called <span class="bg-sun25">staple crops</span>. Africa has a lot of staple tree crops including baobab, mafura, argan, and more! These trees can grow in forest-farms and also grow on farms that include many different crops that grow to different heights (multistrata agroforestry).`,
+            `The benefits of tree intercropping include:<ul class="list-disc pl-4 py-2 pb-5"><li>Trees protect crops from getting damaged in extreme wind, rain, and sun</li><li>Trees help reduce  <span class="bg-sun25">erosion</span> that can harm the land</li><li>Trees have very long roots and they bring minerals and nutrients (like the vitamins you take) from deep in the soil up to where plants with shorter roots can find them</li><li>Trees create homes for different birds and insect pollinators that help crops grow</li></ul>`
         ],
         firstImg: [
             "img/s1-1.jpg",
@@ -285,17 +308,27 @@ new Vue({
             `<span class="font-bold">Solar panels on a roof: </span>
             More and more homes are getting solar panels as they become less expensive to install. `,
             //11-15
-            `<span class="font-bold">Silvopastoral Farm: </span>
-            Cows grazing in fields that use silvopasture can rest in the shade of the trees. This can help the both the cows and the pasture recover.`,
+            `<span class="font-bold">Trees sequestering carbon: </span>
+            Trees take carbon dioxide (1) and convert it to oxygen (2) for us to breathe. While doing that, the tree also returns carbon back to the soil.`,
+            `<span class="font-bold">A piece of peat: </span>
+            This may look like just dirt, but it is actually peat! This chunk is full of decayed organic matter. It is very rich with carbon and could be burned, almost like wood.`,
+            `<span class="font-bold">Afforestation in India: </span>
+            These people are helping to plant trees as part of an afforestation project in Kanakakunnu, India.`,
+            `<span class="font-bold">Enjoying temperate forests: </span>
+            If you like to hike,  camp, or visit the outdoors, there’s a good chance that you have visited a temperate forest! It is important to preserve these places for the planet.`,
+            `<span class="font-bold">Curved mirrors: </span>
+            Normal solar panels are flat. Concentrated solar uses curved mirrors to angle the energy from the sun at the solar tower.`,
+            //16-20
+            `<span class="font-bold">Recycled insulation: </span>
+            This insulation was made from old blue jeans. While all types of insulation help make homes more energy efficient, insulation made from recycled materials uses less energy to make. A win-win!`,
             `<span class="font-bold">Herd of grazing animals: </span>
             Grazing animals travel in herds for safety, like this herd of buffalo in the Serengeti.`,
+            `<span class="font-bold">Inside an LED light bulb: </span>
+            These light bulbs each have multiple LEDs inside of them (little orange squares) that create bright light when electricity runs through them.`,
+            `<span class="font-bold">Acting it out: </span>
+            These youth are enacting a skit about how both tomatoes and eggplants are foods that can grow as perennials in some areas.`,
             `<span class="font-bold">Intercropped farm: </span>
-            This woman shows her rubber plants and vegetables that she is growing together.`,
-            `<span class="font-bold">Bamboo furniture: </span>
-            Bamboo can be use for lots of things because it is very strong. This table and chairs is made from bamboo.`,
-            `<span class="font-bold">Solar LED Lighting: </span>
-            LED lights are very energy efficient, so they can be used with solar panels to bring light to places that do not have a power grid. This girl is fixing the solar powered light for her village in India.`,
-            
+            This woman shows her rubber plants and vegetables that she is growing together.`
         ],
         secondSubH: [
             "Wind farms",
@@ -364,6 +397,9 @@ new Vue({
             //1-5
             `<span class="font-bold">Plant-based burgers: </span>
             New plant-based burgers are being made to taste just like hamburgers. People may eat more plant-based foods when they look more like the meat-based foods they like.`,
+            //11-15
+            `<span class="font-bold">Silvopastoral Farm: </span>
+            Cows grazing in fields that use silvopasture can rest in the shade of the trees. This can help the both the cows and the pasture recover.`,
         ],
         solutionIndex: 0
     },
