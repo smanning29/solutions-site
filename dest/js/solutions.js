@@ -62,21 +62,25 @@ new Vue({
             "Solution #20 of 100"
         ],
         solHeaders: [
+            //1-5
             "Reduced Food Waste",
             "Health and Education",
             "Plant-Rich Diet",
             "Refrigerant Management",
             "Tropical Forest Restoration",
+            //6-10
             "Onshore Wind Turbines",
             "Alternative Refrigerants",
             "Utility-Scale Solar Power",
             "Improved Clean Cookstoves",
             "Distributed Solar Photovoltaics",
+            //11-15
             "Silvopasture",
             "Peatland Protection and Rewetting",
             "Tree Plantations",
             "Temperate Forest Restoration",
             "Concentrated Solar Power",
+            //16-20
             "Insulation",
             "Managed Grazing",
             "LED Lighting",
@@ -84,21 +88,25 @@ new Vue({
             "Tree Intercropping"
         ],
         coNum: [
+            //1-5
             "90.7–101.71",
             "85.42",
             "65.01-91.72",
             "57.75",
             "54.45–85.14",
+            //6-10
             "47.21–147.72",
             "43.53–50.53",
             "42.32–119.13",
             "31.34–72.65",
             "27.98–68.64",
+            //11-15
             "26.58–42.31",
             "26.03–41.93",
             "22.24–35.94",
             "19.42–27.85",
             "18.6–23.96",
+            //16-20
             "16.97–19.01",
             "16.42–26.01",
             "16.07–17.53",
@@ -146,14 +154,21 @@ new Vue({
             `<div class="font-bold">carbon monoxide</div> In many buildings and homes in the U.S., carbon monoxide alarms are placed on the walls. There are probably a few in your school, or your home. Carbon monoxide is toxic to breathe, which is why so many of these alarms are installed.
             <div class="font-bold pt-2">black carbon</div> This is created when certain things are burned. It forms a powdery black dust called soot. It also is very bad for human health. `,
             "no",
-            `<div class="font-bold">methane</div> Methane is a greenhouse gas like carbon dioxide. One way it is created is when cows, and other animals, eat food, digest it, and then fart it out. Methane can trap 34 times more heat than carbon dioxide in earth’s atmosphere.
-            <div class="font-bold pt-2">ecosystem</div> An ecosystem is a community of living organisms (such as plants, animals, and bacteria) along with the nonliving parts of their environments (such as air, water, sunlight, and soil).`,
+            //11-15
             `<div class="font-bold">ecosystem</div> An ecosystem is a community of living organisms (such as plants, animals, and bacteria) along with the nonliving parts of their environments (such as air, water, sunlight, and soil).`,
+            `<div class="font-bold">decompose</div> Decomposition is when formerly living things (plants and animals) are broken down into their component parts, such as carbon dioxide, water, salts and simple sugars.`,
+            `<div class="font-bold">perennial plants</div> Perennials are plants that live more than two years. Technically trees and shrubs are perennials, but trees and shrubs have woody branches whereas perennial plants do not. Examples of perennials are lilies, lavender, and daisies.
+            <div class="font-bold pt-2">biodiversity</div> Biodiversity means that lots of different kinds of plants and animals live together in an area.`,
+            "no",
+            `<div class="font-bold">turbine</div> A turbine is a machine with a wheel or rotor with vanes. When the turbine spins, it creates electricity.
+            <div class="font-bold pt-2">reliable</div> Reliable means that the quality is consistent over time. CSP plants can be trusted to make the same amount of electricity each day.`,
+           //16-20
+            `<div class="font-bold">insulation</div>Insulation in homes and buildings is a material that builders use to stop heat from escaping or entering the building.`,
+            `<div class="font-bold">ecosystem</div> An ecosystem is a community of living organisms (such as plants, animals, and bacteria) along with the nonliving parts of their environments (such as air, water, sunlight, and soil).`,
+            "no",
+            `<div class="font-bold">erosion</div> Erosion is when soil and rocks are slowly moved from one area to another by wind and rain.`,
             `<div class="font-bold">crops</div> Crops are plants that farmers grow for food. Examples are vegetables, grains (like wheat), and fruits.
-            <div class="font-bold pt-2">erosion</div> Erosion is when soil and rocks are slowly moved from one area to another by wind and rain. `,
-            `<div class="font-bold">pulp</div> Pulp is made when engineers cut plants into small pieces and then mash the pieces together with water. Water helps the pieces form a mushy mess called pulp. Many people use the bamboo pulp to make paper.
-            <div class="font-bold pt-2">invasive species</div> An invasive species is a plant or animal that is not naturally live in that area. Sometimes invasive species multiple and spread out in new environments where they have not natural predators. The spread of invasive species can cause harm to local plants and animals.`,
-            "no"
+            <div class="font-bold pt-2">erosion</div> Erosion is when soil and rocks are slowly moved from one area to another by wind and rain. `
         ],
         firstPar: [
             //1-5
@@ -306,6 +321,22 @@ new Vue({
            Some combinations of crops and trees include: chili pepper plants and coffee trees, marigolds and coconut trees, walnut trees and corn, citrus trees and eggplant, olive trees and barley, teak trees and taro, and oak trees and lavender. There are endless possible combinations of trees and crops! <br><br> As machines replaced people working in crop fields over the past 100 years, the mixing of crops and trees became much less common. Farmers are now realizing the importance of tree intercropping. It can help us grow healthy food, take care of the land, and address global warming at the same time.`,
            'Bamboo can also be used to help against global warming! It does this by taking carbon dioxide out of the air and storing it in the plant’s stem, leaves, and roots. This is called carbon sequestration. Bamboo can take carbon dioxide out of the air faster than almost every other plant on Earth! Bamboo also has a superpower - it can live in many types of soil where other plants can’t survive. It can even live in soil that does not have many nutrients. <br><br> We need to be careful where we plant bamboo. Just because bamboo can live in many places around the world, does not mean it should. In areas where bamboo does not grow naturally, it is known as an  <span class="bg-sun25">invasive species</span>. This means that if people do not look after it carefully, bamboo can grow out of control and hurt plants and animals that live in the area. It is important for humansto manage bamboo after it is planted so that it grows in safe ways that also help the environment.',
            "LED light bulbs cost two or three times more than conventional light bulbs. The higher price makes it hard for some people to switch to LEDs in their homes.The good news is that LEDs are becoming less expensive! Also, since LEDs last a lot longer than conventional light bulbs, people will save money in the long term because they do not have to buy light bulbs as often. <br><br> More than a billion people in the world live without electricity. For them, solar LED lights are a great option. These lights don’t need to be plugged into the wall. They only need the sun to power them! Solar powered LED lights can replace expensive oil lamps. They are also a better option than oil lamps because LED lights don’t release unhealthy, toxic fumes."
+        ],
+        thirdSubH: [
+            "Wind farms",
+            "What can we do to waste less food?",
+            "What makes it hard to switch to a plant-based diet?",
+            "How can people help restore tropical forests?",
+            "Is it expensive to install solar panels on rooftop?",
+            "Why is silvopasture a good idea?",
+            "Benefits of managed grazing on farms",
+            "What can tree intercropping look like?",
+            "How is bamboo helpful against global warming?",
+            "Why doesn’t every household use LEDs?",
+        ],
+        fourthPar: [
+            `paragraph`,
+            `paragraph`
         ],
         secondImg: [
             "img/s1-2.jpg",
