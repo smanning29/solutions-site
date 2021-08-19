@@ -13,7 +13,7 @@ module.exports = {
     },
     fontFamily: {
       display: ['Bebas Neue', 'sans-serif'],
-      body: ['Noto Sans JP', 'sans-serif']
+      body: ['Roboto', 'sans-serif']
     },
     borderWidth: {
       default: '0px',

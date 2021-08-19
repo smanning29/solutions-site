@@ -4955,7 +4955,7 @@ video {
 }
 
 .font-body {
-  font-family: Noto Sans JP, sans-serif;
+  font-family: Roboto, sans-serif;
 }
 
 .font-hairline {
@@ -17330,7 +17330,7 @@ video {
   }
 
   .sm\:font-body {
-    font-family: Noto Sans JP, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   .sm\:font-hairline {
@@ -29666,7 +29666,7 @@ video {
   }
 
   .md\:font-body {
-    font-family: Noto Sans JP, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   .md\:font-hairline {
@@ -42002,7 +42002,7 @@ video {
   }
 
   .lg\:font-body {
-    font-family: Noto Sans JP, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   .lg\:font-hairline {
@@ -54338,7 +54338,7 @@ video {
   }
 
   .xl\:font-body {
-    font-family: Noto Sans JP, sans-serif;
+    font-family: Roboto, sans-serif;
   }
 
   .xl\:font-hairline {

@@ -14,7 +14,7 @@ Gulp browser autosync -- gulp watch
 Gulp PostCSS processing -- gulp css
 
 ### Resources Used
-Tailwind Documentation + Screencasts https://tailwindcss.com/
+Tailwind Documentation + Screencasts https://tailwindcss.com/docs
 
 https://tailwindcss.com/course/setting-up-tailwind-and-postcss/
 
