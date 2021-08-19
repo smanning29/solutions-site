@@ -17,50 +17,8 @@ console.log("js initiated");
 new Vue({
     el: '#app',
     data: {
-        bgImgs: [
-            "url(img/s1-0.jpg)",
-            "url(img/s2-0.jpg)",
-            "url(img/s3-0.jpg)",
-            "url(img/s4-0.jpg)",
-            "url(img/s5-0.jpg)",
-            "url(img/s6-0.jpg)",
-            "url(img/s7-0.jpg)",
-            "url(img/s8-0.jpg)",
-            "url(img/s9-0.jpg)",
-            "url(img/s10-0.jpg)",
-            "url(img/s11-0.jpg)",
-            "url(img/s12-0.jpg)",
-            "url(img/s13-0.jpg)",
-            "url(img/s14-0.jpg)",
-            "url(img/s15-0.jpg)",
-            "url(img/s16-0.jpg)",
-            "url(img/s17-0.jpg)",
-            "url(img/s18-0.jpg)",
-            "url(img/s19-0.jpg)",
-            "url(img/s20-0.jpg)"
-                ],
-        solNum: [
-            "Solution #1 of 100",
-            "Solution #2 of 100",
-            "Solution #3 of 100",
-            "Solution #4 of 100",
-            "Solution #5 of 100",
-            "Solution #6 of 100",
-            "Solution #7 of 100",
-            "Solution #8 of 100",
-            "Solution #9 of 100",
-            "Solution #10 of 100",
-            "Solution #11 of 100",
-            "Solution #12 of 100",
-            "Solution #13 of 100",
-            "Solution #14 of 100",
-            "Solution #15 of 100",
-            "Solution #16 of 100",
-            "Solution #17 of 100",
-            "Solution #18 of 100",
-            "Solution #19 of 100",
-            "Solution #20 of 100"
-        ],
+        bgImgs: ["url(img/s1-0.jpg)","url(img/s2-0.jpg)","url(img/s3-0.jpg)","url(img/s4-0.jpg)","url(img/s5-0.jpg)","url(img/s6-0.jpg)","url(img/s7-0.jpg)","url(img/s8-0.jpg)","url(img/s9-0.jpg)","url(img/s10-0.jpg)","url(img/s11-0.jpg)","url(img/s12-0.jpg)","url(img/s13-0.jpg)","url(img/s14-0.jpg)","url(img/s15-0.jpg)","url(img/s16-0.jpg)","url(img/s17-0.jpg)","url(img/s18-0.jpg)","url(img/s19-0.jpg)","url(img/s20-0.jpg)"],
+        solNum: ["Solution #1 of 100","Solution #2 of 100","Solution #3 of 100","Solution #4 of 100","Solution #5 of 100","Solution #6 of 100","Solution #7 of 100","Solution #8 of 100","Solution #9 of 100","Solution #10 of 100","Solution #11 of 100","Solution #12 of 100","Solution #13 of 100","Solution #14 of 100","Solution #15 of 100","Solution #16 of 100","Solution #17 of 100","Solution #18 of 100","Solution #19 of 100","Solution #20 of 100"],
         solHeaders: [
             //1-5
             "Reduced Food Waste",
@@ -89,46 +47,34 @@ new Vue({
         ],
         coNum: [
             //1-5
-            "90.7–101.71",
-            "85.42",
-            "65.01-91.72",
-            "57.75",
-            "54.45–85.14",
+            "90.7–101.71","85.42","65.01-91.72","57.75","54.45–85.14",
             //6-10
-            "47.21–147.72",
-            "43.53–50.53",
-            "42.32–119.13",
-            "31.34–72.65",
-            "27.98–68.64",
+            "47.21–147.72","43.53–50.53","42.32–119.13","31.34–72.65","27.98–68.64",
             //11-15
-            "26.58–42.31",
-            "26.03–41.93",
-            "22.24–35.94",
-            "19.42–27.85",
-            "18.6–23.96",
+            "26.58–42.31","26.03–41.93","22.24–35.94","19.42–27.85","18.6–23.96",
             //16-20
-            "16.97–19.01",
-            "16.42–26.01",
-            "16.07–17.53",
-            "15.45–31.26",
-            "15.03–24.4"
+            "16.97–19.01","16.42–26.01","16.07–17.53","15.45–31.26","15.03–24.4"
         ],
         solLink: [
+            //1-5
             "https://www.drawdown.org/solutions/reduced-food-waste",
             "https://www.drawdown.org/solutions/health-and-education",
             "https://www.drawdown.org/solutions/plant-rich-diets",
             "https://www.drawdown.org/solutions/refrigerant-management",
             "https://www.drawdown.org/solutions/tropical-forest-restoration",
+            //6-10
             "https://www.drawdown.org/solutions/onshore-wind-turbines",
             "https://www.drawdown.org/solutions/alternative-refrigerants",
             "https://www.drawdown.org/solutions/utility-scale-solar-photovoltaics",
             "https://www.drawdown.org/solutions/improved-clean-cookstoves",
             "https://www.drawdown.org/solutions/distributed-solar-photovoltaics",
+            //11-15
             "https://www.drawdown.org/solutions/silvopasture",
             "https://www.drawdown.org/solutions/peatland-protection-and-rewetting",
             "https://www.drawdown.org/solutions/tree-plantations-on-degraded-land",
             "https://www.drawdown.org/solutions/temperate-forest-restoration",
             "https://www.drawdown.org/solutions/concentrated-solar-power",
+            //16-20
             "https://www.drawdown.org/solutions/insulation",
             "https://www.drawdown.org/solutions/managed-grazing",
             "https://www.drawdown.org/solutions/led-lighting",
@@ -242,7 +188,7 @@ new Vue({
             `A solar farm is a good way to harness a lot of the sun’s energy. Solar farms are located on large pieces of land where many, sometimes millions, of <span class="bg-sun25">photovoltaic (PV)</span> panels, all work together. Another more common name for photovoltaic panels is solar panels. Solar farms act as power plants because they produce just as much electricity as power plants that use fossil fuels. Solar farms send energy out to homes, schools, offices, and stores like other power plants. 
             <br><br>What’s the difference between power plants that use fossil fuels and solar farms? The difference is that solar farms don’t release greenhouse gas emissions like fossil fuel powered power plants! This means that they don’t produce greenhouse gases when they make energy.`,
             `Open flames or simple stoves often use sources of fuel that pollute the air. While most people in the United States cook with gas or electricity, many people cook with these materials:<ul class="list-disc pl-4 py-2 pb-5"><li>Wood</li><li>Charcoal</li><li>Dried animal poop (usually from grazing animals like cows)</li><li>Parts of plants leftover from harvesting crops</li><li>Coal</li></ul>
-            <br>When things like wood and dried animal poop are burned, a lot of smoke and soot is released. When people use open fires and simple stoves inside, this smoke and soot stays inside of people’s homes and it is very unhealthy to breathe. Sadly, cooking in this way leads to an early death for more than 4 million people every year.`,
+            When things like wood and dried animal poop are burned, a lot of smoke and soot is released. When people use open fires and simple stoves inside, this smoke and soot stays inside of people’s homes and it is very unhealthy to breathe. Sadly, cooking in this way leads to an early death for more than 4 million people every year.`,
             `There are two ways we use solar PV panels to make electricity. <ol class="list-decimal pl-4 py-2 pb-5"><li>Utility companies fill a large field with solar panels. This is called “utility-scale” solar. These provide energy for many homes and businesses. </li><li>Individual people install a few PV panels on rooftops or near homes and businesses. This is called “distributed” solar energy collection. This type of PV panel provides energy for the building they are attached to.</li></0l>
              In 2015, distributed solar made up 30 percent of all solar energy produced from PV panels. Germany is the leader in solar energy and has over 1.5 million distributed solar panels. In Bangladesh, a country next to India that has a population of over 157 million people, there are more than 3.6 million solar panels installed on or near homes.`,
             //11-15
@@ -302,15 +248,15 @@ new Vue({
             Each year, every country who signed the Montreal Protocol will send a representative to this meeting to make sure they are meeting the reccommendations made by scientists.`,
             `<span class="font-bold">Acting it out: </span>
             Students at Tuba City High School within the Navajo Nation enact power generation from solar photovoltaics.`,
-            `<span class="font-bold">Open fire cooking: </span>
-            It is important to consider the people who will use clean cookstoves when we design them. A local non-profit organization gifted this woman, in Chajul, Guatemala, a clean cookstove. (You can see it behind her this photo). However, she continues to cook on a three stone open fire because she prefers her traditional way of cooking. The new clean stove is too tall, not easy for her to use.`,
+            `<span class="font-bold">Gathering fuel for cooking: </span>
+            In many communities that continue to cook over open flames, women and girls collect the fuel. This arrangement negatively impacts the lives of women and girls more than men and boys.`,
             `<span class="font-bold">Solar panels on a roof: </span>
             More and more homes are getting solar panels as they become less expensive to install. `,
             //11-15
             `<span class="font-bold">Trees sequestering carbon: </span>
             Trees take carbon dioxide (1) and convert it to oxygen (2) for us to breathe. While doing that, the tree also returns carbon back to the soil.`,
-            `<span class="font-bold">A piece of peat: </span>
-            This may look like just dirt, but it is actually peat! This chunk is full of decayed organic matter. It is very rich with carbon and could be burned, almost like wood.`,
+            `<span class="font-bold">Peatland Map: </span>
+            The green areas on this map are where peatlands are located. The countries in gray are countries that have known peatlands. The countries in gray have known peatlands. Interestingly, almost all countries in the world have peatlands.`,
             `<span class="font-bold">Afforestation in India: </span>
             These people are helping to plant trees as part of an afforestation project in Kanakakunnu, India.`,
             `<span class="font-bold">Enjoying temperate forests: </span>
@@ -365,11 +311,10 @@ new Vue({
             `People now farm on land that was tropical forest. People have turned some valleys that were tropical forest into lakes to store water. There are a few ways people can support the restoration of tropical forests. <ol class="list-decimal pl-4 py-2 pb-5"><li>People can restore tropical forests by letting forests grow back on land that is being used for farming and lakes.</li>
             <li>As forests begin to grow back, people can protect them from fires, <span class="bg-sun25">erosion</span>, and animals.</li><li>People can plant baby trees where adult trees used to grow.</li><li>People can remove  <span class="bg-sun25">invasive plants</span> that don’t belong in tropical forests. </li></ol>Most tropical forests have communities of people who live nearby. It is important to include local communities who live near tropical forests in efforts to restore these forests!`,
            //6-10
-           `Wind turbines do not need a lot of land in order to make electricity. Because they do not need a lot of land, the land is available for other uses. Farmers can still plant their crops or let their animals <span class="bg-sun25">graze</span>. People can use the land on wind farms to do their favorite activities, like hiking and biking. Sometimes communities protect the land on wind farms to help <span class="bg-sun25">conserve</span>the environment!`,
+           `Wind turbines do not need a lot of land in order to make electricity. Because they do not need a lot of land, the land is available for other uses. Farmers can still plant their crops or let their animals <span class="bg-sun25">graze</span>. People can use the land on wind farms to do their favorite activities, like hiking and biking. Sometimes communities protect the land on wind farms to help <span class="bg-sun25">conserve</span> the environment!`,
            `We need to start using new refrigerants in order to preserve the ozone layer and avoid using chemicals that heat up our earth. As part of the Montreal Protocol, countries agreed to explore a few different refrigerant options that are better for the environment. <span class="bg-sun25">Ammonia</span>, carbon dioxide and even <span class="bg-sun25">propane</span>, are much better for the environment than the refrigerants we have been using. 
            <ol class="list-decimal pl-4 py-2 pb-5"><li>First, they are chemicals that are found in nature and do not need to be created by people.</li><li>Second, compared to the refrigerants we use now, these alternatives have a low global warming potential. This means that they do not trap or release as much heat into the atmosphere over time.</li></ol> Scientists have found that if countries use alternative refrigerants, it will prevent 50.5 gigatons of refrigerants from entering the atmosphere. This is a huge number that can help us fight against climate change!`,
-           `Solar farms can be found in deserts, on military bases, and on top of closed landfills that are full of trash. Sometimes they are even built on lakes and reservoirs where the solar panels float on the water!<br><br>
-           Back in 1954, Bell Labs created silicon PV technology, which is what we use today in solar panels. At that time, almost 70 years ago, that technology was very very expensive. It would sell for $1,900 per <span class="bg-sun25">watt</span>. That cost has dropped so much that solar energy is sometimes even cheaper than fossil fuel created electricity. Today solar costs $0.65 per watt!`,
+           `Solar farms can be found in deserts, on military bases, and on top of closed landfills that are full of trash. Sometimes they are even built on lakes and reservoirs where the solar panels float on the water!`,
            `Cooking on open fires and simple stoves indoors can impact the Earth in the following ways:
            <ul class="list-disc pl-4 py-2 pb-5"><li><span class="font-bold">Deforestation and forest degradation:</span> Wood is one of the most popular sources of fuel for cooking. Because of this, people around the world cut down many trees and forests. This means that the Earth loses parts of our very important carbon sink.</li><li> 
            <span class="font-bold">Emissions:</span> These cooking practices emite two to five percent of annual greenhouse gas emissions.</li><li><span class="font-bold">Early death:</span> Burning the materials listed above releases methane, carbon dioxide, <span class="bg-sun25">carbon monoxide</span>, and <span class="bg-sun25">black carbon</span> into the air. These things, especially carbon monoxide and black carbon, are what cause so much harm to human health.</li></ul>`,
@@ -392,21 +337,47 @@ new Vue({
            `Trees and crops can be combined in many different ways. There are two main ways:<ul class="list-disc pl-4 py-2 pb-5"><li><span class="font-bold">Alley cropping</span> is when trees are planted in rows with crops in between them. This method helps trees fertilize crops.</li><li> <span class="font-bold">Parkland systems</span> are when trees are scattered throughout fields with crops. There are many other ways to combine trees and crops and most of them make fields beautiful.</li></ul>
            Some combinations of crops and trees include: <ul class="list-disc pl-4 py-2 pb-5"><li>chili pepper plants and coffee trees</li><li>marigolds and coconut trees</li><li>walnut trees and corn</li><li>citrus trees and eggplant</li><li>olive trees and barley</li><li>teak trees and taro</li><li>oak trees and lavender</li></ul>There are endless possible combinations of trees and crops!`
         ],
-
-
         thirdSubH: [
-            "Wind farms",
-            "What can we do to waste less food?",
-            "What makes it hard to switch to a plant-based diet?",
-            "How can people help restore tropical forests?",
-            "Is it expensive to install solar panels on rooftop?",
-            "Why is silvopasture a good idea?",
-            "Benefits of managed grazing on farms",
-            "What can tree intercropping look like?",
-            "How is bamboo helpful against global warming?",
-            "Why doesn’t every household use LEDs?",
+            //1-5
+            "no",
+            "Why is considering the wealth of a country important?",
+            "no","no","no",
+            //6-10
+            "Wind Farms are fast to build",
+            "no","no","no",
+            "Solar PV panels can bring unlimited electricity to places where it is needed!",
+            //11-15
+            "no","no",
+            "Subheading",
+            "Subheading",
+            "Subheading",
+            //16-20
+            "Subheading",
+            "Subheading",
+            "Subheading",
+            "Subheading",
+            "Subheading"
         ],
         fourthPar: [
+            //1-5
+            `Aside from reducing emissions, reducing food waste is important for another reason too. The world’s population is growing every year. If we create global systems to prevent food waste, there can be enough food to feed everyone.`,
+            `People in wealthy countries only make up 10% of the world’s population but they create more than 50% of greenhouse gas emissions that cause climate change. As a result, population growth in wealthy countries impacts climate change more than population growth in less wealthy countries.  People might feel a variety of emotions related to the topic of population growth. Some people might feel or say mean things. Ultimately, people’s choice about how many children to have should be their personal choice. And all children should inherit a livable planet.
+            <br><br>It is important that we always focus on the goals of human rights and equal treatment of women and all genders. Working toward this goal benefits both humans and the planet.`,
+            `no`,`no`,`no`,
+            //6-10
+            `It takes about one year for engineers to build an entire wind farm! That means that people can start producing and using wind energy quickly. It also means that communities and companies that spend money to build wind farms can make their money back quickly.`,
+            `no`,`no`,`no`,
+            `In places where most homes and businesses are connected to power lines, solar panels help people disconnect from the power line system and control their own electricity. In places where there are no electric utilities or power lines, solar panels can help people access electricity. Solar PV panels do not require big companies or fossil fuels. By providing a way for people to access electricity on their own, solar PV panels can help eliminate poverty.`,
+            //11-15
+            `no`,
+            `no`,
+            `paragraph`,
+            `paragraph`,
+            `paragraph`,
+            //16-20
+            `paragraph`,
+            `paragraph`,
+            `paragraph`,
             `paragraph`,
             `paragraph`
         ],
@@ -434,11 +405,132 @@ new Vue({
                    ],
         secondImgCap: [
             //1-5
+            `<span class="font-bold">Acting it out: </span>
+            To help change negative attitudes about ugly produce, these kids wrote a comedy sketch to laugh about it. Making a subject funny is a good way to raise awareness.`,
+            `<span class="font-bold">Speaking up to protect the planet: </span>
+            These young women are members of SPEAK.WORLD, an organization that empowers young women to use their voices for change. `,
             `<span class="font-bold">Plant-based burgers: </span>
             New plant-based burgers are being made to taste just like hamburgers. People may eat more plant-based foods when they look more like the meat-based foods they like.`,
+            `<span class="font-bold">Montreal Protocol timeline: </span>
+            This timeline shows when major events for the Montreal Protocol happened.`,
+            `<span class="font-bold">New Guinea forests: </span>
+            New Guinea has more plant species than any other island. These researchers are learning about the forest and its plants so they can better protect it.`,
+            //6-10
+            `<span class="font-bold">Wind turbine setup: </span>
+            Engineers set up wind turbines on existing farmland, and they only need to come for repairs.`,
+            `<span class="font-bold">Acting it out: </span>
+            Comedic skits can actively communicate local actions for refrigerant management in a fun and engaging way. In this skit entitled “Grandma Fridge Cools Off” a family is taking their aging grandmother, who is a refrigerator, to Rocky Mountain National Park for one last vacation before she gets properly recycled through an Environmental Protection Agency-approved local program. This was performed at Rocky Mountain National Park on Discovery Day to educate park visitors about the importance of properly disposing of aging refrigerators. The skit is available at (link) `,
+                //LINK TO ACT PAGE
+            `<span class="font-bold">Desert solar farm: </span>
+            Solar farms work well in flat, hot places that get lots of sunlight.`,
+            `<span class="font-bold">Open fire cooking: </span>
+            It is important to consider the people who will use clean cookstoves when we design them. A local non-profit organization gifted this woman, in Chajul, Guatemala, a clean cookstove. (You can see it behind her this photo). However, she continues to cook on a three stone open fire because she prefers her traditional way of cooking. The new clean stove is too tall, not easy for her to use.`,
+            `<span class="font-bold">Solar LED Lighting: </span>
+            LED lights are very energy efficient, so they can be used with solar panels to bring light to places that do not have a power grid. This woman is fixing the solar powered light for her village in India.`,
             //11-15
             `<span class="font-bold">Silvopastoral Farm: </span>
             Cows grazing in fields that use silvopasture can rest in the shade of the trees. This can help the both the cows and the pasture recover.`,
+            `<span class="font-bold">A piece of peat: </span>
+            This may look like just dirt, but it is actually peat! This chunk is full of decayed organic matter. It is very rich with carbon and could be burned, almost like wood.`,
+            `<span class="font-bold">caption: </span>
+            caption `,
+            `<span class="font-bold">caption: </span>
+            caption `,
+            `<span class="font-bold">caption: </span>
+            caption `,
+            //16-20
+            `<span class="font-bold">caption: </span>
+            caption `,
+            `<span class="font-bold">caption: </span>
+            caption `,
+            `<span class="font-bold">caption: </span>
+            caption `,
+            `<span class="font-bold">caption: </span>
+            caption `,
+            `<span class="font-bold">caption: </span>
+            caption `,
+        ],
+        fourthSubH: [
+            //1-5
+            "no","no",
+            "What does each type of plant-rich diet look like?",
+            "What can I do?",
+            "no",
+            //6-10
+            "What happens when the wind is not blowing?",
+            "no",
+            "How much does solar energy cost?",
+            "Improved cookstoves",
+            "no",
+            //11-15
+            "Why don’t all farmers use silvopasture?",
+            "no",
+            "Subheading",
+            "Subheading",
+            "Subheading",
+            //16-20
+            "Subheading",
+            "Subheading",
+            "Subheading",
+            "Subheading",
+            "Subheading"
+        ],
+        fifthPar: [
+            //1-5
+            `no`,
+            `In its most recent report on “world population prospects,” the United Nations says that the international community has committed to making sure that all people can decide when they want to have children and how many children they will have. This commitment can change the world because it helps humans address climate change by using fewer resources.`,
+            `<ul class="list-disc pl-4 py-2 pb-5"><li>In a <span class="bg-sun25">plant-rich diet</span>, people may still eat meat, but it is not the focus of their diet. Instead, they try to eat mostly plants and occasionally include meats with low greenhouse gas emissions.</li><li>In a <span class="bg-leaf25">vegetarian diet</span>, people don’t eat meat but they do eat things like cheese, milk, and eggs. If we all ate this way, we could reduce greenhouse gas emissions by 63 percent.</li><li> 
+            In a <span class="bg-sky25">vegan</span> diet, people don’t eat any foods that come from animals at all. This means they do not eat meat, cheese, milk, or eggs. If everyone ate this way, we could reduce greenhouse gas emissions by up to 70 percent.</li></ul> Any of these diets could help us save up to $1 trillion dollars in health care costs.`,
+            `<span class="font-bold">Ninety percent of the refrigerants that enter the air escape after refrigerators and air conditioners get old and people throw them away.</span> If people are more careful about how they throw away their old refrigerators and air conditioners, we can keep this from happening. When people take their old appliances to special recycling centers, recycling companies can purify the old refrigerant chemicals and reuse them or even turn them into other things! Recycling and reusing refrigerant is important because it keeps those chemicals from going into the atmosphere and warming Earth.`,
+            `no`,
+            //6-10
+            `Even though wind turbines can make a lot of energy, the wind isn’t always blowing. So, wind energy must be part of a system. Other actions we can take to build a green energy system include:<ul class="list-disc pl-4 py-2 pb-5"><li>Convert solar and geothermal energy into electricity</li><li>Build batteries that can store a lot of energy</li><li>Create new systems to help move energy around communities.</li><li>Using all of these elements together, we can produce the energy we need without burning fossil fuels.</li></ul>`,
+            `no`,
+            `Back in 1954, Bell Labs created silicon PV technology, which is what we use today in solar panels. At that time, almost 70 years ago, that technology was very very expensive. It would sell for $1,900 per <span class="bg-sun25">watt</span>. That cost has dropped so much that solar energy is sometimes even cheaper than fossil fuel created electricity. Today solar costs $0.65 per watt!
+            <br><br>Solar energy is cheaper today because:<ul class="list-disc pl-4 py-2 pb-5"><li>People invested, or gave their money, to solar scientists and engineering companies</li><li>Governments gave benefits to make solar cheaper</li><li>Scientists created better technology</li><li>Engineers created better processes to build the panels</li></ul>
+            Solar farms are an important part of our transition to greener energy. We are working towards a clean energy revolution with cheaper costs for solar panels, better technology to capture and store solar energy, and the power of other renewable energy!`,
+            `Luckily, engineers, scientists and community memebers have created ‘improved cookstove’ technology to address the problems you have just learned about. This technology forces the gases and smoke back into the cooking flames where it goes through a second cycle of burning. In some improved cookstoves, this process decreases the amount of smoke and emissions released into the air by 95 percent! 
+            <br><br>The Global Alliance for Clean Cookstoves was created in 2010 by the United Nations. It is an organization that helps people around the world buy clean cookstoves. They make sure clean cookstoves are not too expensive, that they are durable, and that the technology works well. Their mission is to help people cook meals without hurting themselves, their families, or the planet.`,
+            `no`,
+            //11-15
+            `Silvopasture is not the most popular way to raise cows and other farm animals. As a result, some farmers are hesitant to try it. Also, at first silvopasture costs more money than having fields of only grass.. It takes time for farmers to start to make money from silvopasture, so it can be hard for farmers to make the switch. To raise awareness about the positive impact of silvopasture, farmers can talk to each other about it. When farmers share their experiences, they can learn from and support one another as they make more environmentally friendly changes to their farms and farming practices.`,
+            `no`,
+            `paragraph`,
+            `paragraph`,
+            `paragraph`,
+            //16-20
+            `paragraph`,
+            `paragraph`,
+            `paragraph`,
+            `paragraph`,
+            `paragraph`
+        ],
+        thirdImg: [
+            //1-5
+            "no","no","no","no","no",
+            //6-10
+            "no","no","no","img/s9-3.jpg","no",
+            //11-15
+            "img/s11-3.jpg","no","no","no","no",
+            //16-20
+            "no","no","no","no","no"
+        ],
+        thirdImgCap: [
+            //1-5
+            "no","no","no","no","no",
+            //6-10
+            "no","no","no",
+            `<span class="font-bold">Potter with clean cookstove: </span>
+            This pot maker from Tanzania has started to make clean cookstoves for himself and other members of his community.`,
+            "no",
+            //11-15
+            `<span class="font-bold">Farmers share their experience: </span>
+            Farmers who use silvopasture methods can share their experiences with other farmers. Sharing ideas can help more farmers start to use silvopasture. `,
+            "no","no","no","no",
+            //16-20
+            "no","no","no","no","no"
+
+            //`<span class="font-bold">caption: </span> caption `
         ],
         solutionIndex: 0
     },

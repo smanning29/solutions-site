@@ -62,7 +62,7 @@
                     </div>
                     <div class="w-full bg-drawdown px-10 py-2" >
                         <h2 class="text-left text-white font-display text-md md:text-mdlg" v-html="solHeaders[solutionIndex]">
-                            BIOMASS POWER
+                            SOLUTION HEADER
                         </h2>
                     </div>
                 </div>
@@ -88,6 +88,37 @@
                         <p class="p-5 text-smd md:leading-8" v-html="thirdPar[solutionIndex]">
                             paragraph 3
                         </p>
+
+                        <!-- CONDITIONAL PARAGRAPHS -->
+                        <h3 v-if="thirdSubH[solutionIndex] != 'no'" class="font-light font-body text-base text-drawdown tracking-wide px-5" v-html="thirdSubH[solutionIndex]">
+                            subheader 3
+                        </h3>
+                        <p v-if="fourthPar[solutionIndex] != 'no'" class="p-5 text-smd md:leading-8" v-html="fourthPar[solutionIndex]">
+                            paragraph 4
+                        </p>
+
+                        <img v-bind:src="secondImg[solutionIndex]" alt="Image" class="px-5">
+                        <div class="text-drawdown p-5" v-html="secondImgCap[solutionIndex]" >
+                            image caption
+                        </div>
+
+                        <!-- CONDITIONAL PARAGRAPHS -->
+                        <h3 v-if="fourthSubH[solutionIndex] != 'no'" class="font-light font-body text-base text-drawdown tracking-wide px-5" v-html="fourthSubH[solutionIndex]">
+                            subheader 4
+                        </h3>
+                        <p v-if="fifthPar[solutionIndex] != 'no'" class="p-5 text-smd md:leading-8" v-html="fifthPar[solutionIndex]">
+                            paragraph 5
+                        </p>
+
+                        <!-- CONDITIONAL IMAGE -->
+                        <div v-if="thirdImg[solutionIndex] != 'no'">
+                            <img v-bind:src="thirdImg[solutionIndex]" alt="Image" class="px-5">
+                            <div class="text-drawdown p-5" v-html="thirdImgCap[solutionIndex]" >
+                                image caption
+                            </div>
+                        </div>
+                        
+
                         
                     
                     </div>

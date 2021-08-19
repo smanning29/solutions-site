@@ -46,9 +46,14 @@ module.exports = {
         drawdown50: 'rgba(17,72,124,0.5)',
         sky: '#7FA1C1',
         forest: '#217055',
+        leaf: '#4c8f42',
         sun: '#E8C547',
+        sky25: 'rgba(127,161,193,0.25)',
+        sky50: 'rgba(127,161,193,0.5)',
+        leaf25: 'rgba(76,143,66,0.25)',
+        leaf50: 'rgba(76,143,66,0.5)',
         sun25: 'rgba(232,197,71,0.25)',
-        sun50: 'rgba(232,197,71,0.25)',
+        sun50: 'rgba(232,197,71,0.5)',
         clay: '#BA4026'
       },
       spacing: {
