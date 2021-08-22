@@ -28,6 +28,7 @@ module.exports = {
       'sml': '1.25rem',
       'smd': '1.5rem',
       'base': '2rem',
+      'mdbs': '2.5rem',
       'mdsm': '2.75rem',
       'md': '3rem',
       'mdlg': '4rem',
