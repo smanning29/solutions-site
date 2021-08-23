@@ -11,9 +11,12 @@ console.log("js initiated");
 //     console.log(solutionIndex);
     
 // }
+// import Vue from 'vue'
+// import store from 'store'
 
 new Vue({
     el: '#app',
+    // store,
     data: {
         bgImgs: ["url(img/s1-0.jpg)","url(img/s2-0.jpg)","url(img/s3-0.jpg)","url(img/s4-0.jpg)","url(img/s5-0.jpg)","url(img/s6-0.jpg)","url(img/s7-0.jpg)","url(img/s8-0.jpg)","url(img/s9-0.jpg)","url(img/s10-0.jpg)","url(img/s11-0.jpg)","url(img/s12-0.jpg)","url(img/s13-0.jpg)","url(img/s14-0.jpg)","url(img/s15-0.jpg)","url(img/s16-0.jpg)","url(img/s17-0.jpg)","url(img/s18-0.jpg)","url(img/s19-0.jpg)","url(img/s20-0.jpg)"],
         solNum: ["Solution #1 of 100","Solution #2 of 100","Solution #3 of 100","Solution #4 of 100","Solution #5 of 100","Solution #6 of 100","Solution #7 of 100","Solution #8 of 100","Solution #9 of 100","Solution #10 of 100","Solution #11 of 100","Solution #12 of 100","Solution #13 of 100","Solution #14 of 100","Solution #15 of 100","Solution #16 of 100","Solution #17 of 100","Solution #18 of 100","Solution #19 of 100","Solution #20 of 100"],
@@ -532,6 +535,14 @@ new Vue({
         solutionIndex: 0
     },
     methods: {
+        // left: function(){
+        //     store.left();
+        //     console.log("solutions.js left");
+        // },
+        // right: function(){
+        //     store.right()
+        //     console.log("solutions.js right");
+        // },
         left: function () {
             console.log(this.bgImgs[this.solutionIndex]);
             this.solutionIndex--;
@@ -545,26 +556,6 @@ new Vue({
             if(this.solutionIndex == 20){
                 this.solutionIndex = 0;
             } 
-        },
-        leftTop: function () {
-            console.log(this.bgImgs[this.solutionIndex]);
-            this.solutionIndex--;
-            if(this.solutionIndex == -1){
-                this.solutionIndex = 19;
-            } 
-
-            document.body.scrollTop = 75; // For Safari
-            document.documentElement.scrollTop = 75; // For Chrome, Firefox, IE and Opera
-        },
-        rightTop: function () {
-            console.log(this.bgImgs[this.solutionIndex]);
-            this.solutionIndex++;
-            if(this.solutionIndex == 20){
-                this.solutionIndex = 0;
-            } 
-
-            document.body.scrollTop = 75; // For Safari
-            document.documentElement.scrollTop = 75; // For Chrome, Firefox, IE and Opera
         },
 
     }

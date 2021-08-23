@@ -19,12 +19,14 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@100;300;400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js" defer></script>
+    <script src="js/solutions.js" defer></script>
     <title>Drawdown Adapted</title>
 </head>
 <body>
     <div class="container overflow-x-hidden overflow-y-hidden">
 
-        <div class="w-full text-center text-xl flex flex-row bg-white fixed z-50">
+        <div class="w-full text-center text-xl flex flex-row bg-white fixed z-50" data-aos="fade">
             <header class="flex-initial w-1/2">
                 <h1 class="font-display text-drawdown text-md text-left">
                     DRAWDOWN ADAPTED
@@ -74,15 +76,16 @@
             <section class="lg:w-1/2 p-5">
                 <img src="img/cover-1.jpg" alt="Drawdown Adapted Cover">
             </section> -->
-                        
-            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="0">
+            
+            <!-- SOLUTIONS 1-5 -->
+            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="50">
                 <div class="hover-container">
                     <img src="img/c1.png" alt="Solution 1" class="hover-img">
                     <a href="#">
                         <div class="overlay bg-drawdown50 hover:bg-drawdown75">
                             <div class="hover-text font-body font-thin text-white tracking-wide text-smd md:text-sm italic">
                                 Solution #1
-                                <div class="pt-2 font-display tracking-normal md:text-mdsm md:leading-10 text-mdbs leading-9 not-italic">
+                                <div class="pt-2 font-display tracking-normal text-mdbs leading-9 md:text-mdsm md:leading-10 not-italic">
                                     Reduced<br>food waste
                                 </div>
                             </div>
@@ -91,14 +94,14 @@
                 </div>              
             </div>
 
-            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="0">
+            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="100">
                 <div class="hover-container">
                     <img src="img/c2.png" alt="Solution 2" class="hover-img">
-                    <a href="#">
+                    <a v-on:click="setSolIndex(2)" href="solutions.html">
                         <div class="overlay bg-drawdown50 hover:bg-drawdown75">
-                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd italic">
+                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd md:text-sm italic">
                                 Solution #2
-                                <div class="pt-2 font-display tracking-normal text-mdsm leading-10 not-italic">
+                                <div class="pt-2 font-display tracking-normal text-mdbs leading-9 md:text-mdsm md:leading-10 not-italic">
                                     Health and<br>education
                                 </div>
                             </div>
@@ -107,14 +110,14 @@
                 </div>              
             </div>
 
-            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="0">
+            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="150">
                 <div class="hover-container">
                     <img src="img/c3.png" alt="Solution 3" class="hover-img">
                     <a href="#">
                         <div class="overlay bg-drawdown50 hover:bg-drawdown75">
-                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd italic">
+                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd md:text-sm italic">
                                 Solution #3
-                                <div class="pt-2 font-display tracking-normal text-mdsm leading-10 not-italic">
+                                <div class="pt-2 font-display tracking-normal text-mdbs leading-9 md:text-mdsm md:leading-10 not-italic">
                                     Plant-rich<br>diet
                                 </div>
                             </div>
@@ -123,14 +126,14 @@
                 </div>              
             </div>
 
-            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="0">
+            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="200">
                 <div class="hover-container">
                     <img src="img/c4.png" alt="Solution 4" class="hover-img">
                     <a href="#">
                         <div class="overlay bg-drawdown50 hover:bg-drawdown75">
-                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd italic">
+                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd md:text-sm italic">
                                 Solution #4
-                                <div class="pt-2 font-display tracking-normal text-mdsm leading-10 not-italic">
+                                <div class="pt-2 font-display tracking-normal text-mdbs leading-9 md:text-mdsm md:leading-10 not-italic">
                                     Refrigerant management
                                 </div>
                             </div>
@@ -139,14 +142,14 @@
                 </div>              
             </div>
 
-            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="0">
+            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="250">
                 <div class="hover-container">
                     <img src="img/c5.png" alt="Solution 5" class="hover-img">
                     <a href="#">
                         <div class="overlay bg-drawdown50 hover:bg-drawdown75">
-                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd italic">
+                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd md:text-sm italic">
                                 Solution #5
-                                <div class="pt-2 font-display tracking-normal text-mdsm leading-10 not-italic">
+                                <div class="pt-2 font-display tracking-normal text-mdbs leading-9 md:text-mdsm md:leading-10 not-italic">
                                     Tropical forest restoration
                                 </div>
                             </div>
@@ -155,6 +158,102 @@
                 </div>              
             </div>
 
+            <!-- SOLUTIONS 6-10 -->
+            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="300">
+                <div class="hover-container">
+                    <img src="img/c6.png" alt="Solution 6" class="hover-img">
+                    <a href="#">
+                        <div class="overlay bg-drawdown50 hover:bg-drawdown75">
+                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd md:text-sm italic">
+                                Solution #6
+                                <div class="pt-2 font-display tracking-normal md:text-mdsm md:leading-10 text-mdbs leading-9 not-italic">
+                                    Onshore wind turbines
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>              
+            </div>
+
+            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="350">
+                <div class="hover-container">
+                    <img src="img/c7.png" alt="Solution 7" class="hover-img">
+                    <a href="solutions.html">
+                        <div class="overlay bg-drawdown50 hover:bg-drawdown75">
+                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd md:text-sm italic">
+                                Solution #7
+                                <div class="pt-2 font-display tracking-normal text-mdbs leading-9 md:text-mdsm md:leading-10 not-italic">
+                                    Alternative Refrigerants
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>              
+            </div>
+
+            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="400">
+                <div class="hover-container">
+                    <img src="img/c8.png" alt="Solution 8" class="hover-img">
+                    <a href="#">
+                        <div class="overlay bg-drawdown50 hover:bg-drawdown75">
+                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd md:text-sm italic">
+                                Solution #8
+                                <div class="pt-2 font-display tracking-normal text-mdbs leading-9 md:text-mdsm md:leading-10 not-italic">
+                                    Utility Scale Solar Power
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>              
+            </div>
+
+            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="450">
+                <div class="hover-container">
+                    <img src="img/c9.png" alt="Solution 9" class="hover-img">
+                    <a href="#">
+                        <div class="overlay bg-drawdown50 hover:bg-drawdown75">
+                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd md:text-sm italic">
+                                Solution #9
+                                <div class="pt-2 font-display tracking-normal text-mdbs leading-9 md:text-mdsm md:leading-10 not-italic">
+                                    Improved Clean Cookstoves
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>              
+            </div>
+
+            <div class="lg:w-1/5 md:w-1/3 w-1/2 p-4 relative" data-aos="fade" data-aos-delay="500">
+                <div class="hover-container">
+                    <img src="img/c10.png" alt="Solution 10" class="hover-img">
+                    <a href="#">
+                        <div class="overlay bg-drawdown50 hover:bg-drawdown75">
+                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd md:text-sm italic">
+                                Solution #10
+                                <div class="pt-2 font-display tracking-normal text-mdbs leading-9 md:text-mdsm md:leading-10 not-italic">
+                                    Distributed Solar Power
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>              
+            </div>
+
+            <div class="lg:w-full md:w-2/3 w-full p-4 relative" data-aos="fade" data-aos-delay="500">
+                <div class="hover-container">
+                    <img src="img/c-full.png" alt="Learn about drawdown adapted" class="hover-img">
+                    <a href="#">
+                        <div class="overlay bg-drawdown50 hover:bg-drawdown75">
+                            <div class="hover-text font-body font-thin text-white tracking-wide text-smd md:text-sm lg:text-base italic">
+                                Learn more about
+                                <div class="lg:pt-5 pt-2 font-display tracking-normal text-mdbs leading-9 md:text-md md:leading-10 lg:text-lg not-italic">
+                                    Drawdown Adapted
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>              
+            </div>
             
         
         </article>
